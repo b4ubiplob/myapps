@@ -1,0 +1,8 @@
+---
+applications:
+- name: sampleweb
+  memory: 1G
+  random-route: false
+  path: target/sampleweb.war
+  env:
+    TARGET_RUNTIME: tomcat

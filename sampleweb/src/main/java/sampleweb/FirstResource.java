@@ -23,8 +23,8 @@ public class FirstResource {
 	@Produces(MediaType.APPLICATION_JSON)
 	public List<FirstTO> sampleJson() {
 		List<FirstTO> list = new ArrayList<>();
-		list.add(new FirstTO("firstStr", 1));
-		list.add(new FirstTO("secondStr", 2));
+		list.add(new FirstTO("firstStr_1", 1, "FirstStr1"));
+		list.add(new FirstTO("secondStr_1", 2, "SecondStr1"));
 		return list;
 	}
 
